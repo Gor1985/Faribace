@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "662303767518",
+    "firebase_url": "https://chat-c000b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "chat-c000b",
+    "storage_bucket": "chat-c000b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662303767518:android:069424085c1434fe813b4f",
+        "android_client_info": {
+          "package_name": "com.example.chatic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662303767518-jgvokiva2ngkg7mrc6phkitlqjdg3rbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatic",
+            "certificate_hash": "4bf3feb59a555b86d3241ffe73ef0797de94e7b9"
+          }
+        },
+        {
+          "client_id": "662303767518-ak2igl12dibpp0lv66hv7bveiesgn59t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVJlX4rvJDFk-wEVNOWI4Gezz4z8cp1AM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662303767518-ak2igl12dibpp0lv66hv7bveiesgn59t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <ListView
+        android:id="@+id/MesageListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:transcriptMode="alwaysScroll"
+        tools:listitem="@layout/list_view" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/fotoSendButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ic_baseline_add_a_photo_24" />
+
+        <EditText
+            android:id="@+id/mesageEditText"
+            android:layout_width="276dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Введите ваш текст" />
+
+        <Button
+            android:id="@+id/sendMesageButton"
+            android:layout_width="wrap_content"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:text="Отправить" />
+
+    </LinearLayout>
+    <ProgressBar
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

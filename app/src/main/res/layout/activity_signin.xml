@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="toggleLoginMode"
+    android:orientation="vertical"
+    tools:context=".SigninActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="139dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chat" />
+
+    <EditText
+        android:id="@+id/emaileEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:hint="Введите ваш E-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:hint="Введите ваш пароль"
+        android:inputType="textPassword" />
+
+    <EditText
+
+        android:id="@+id/passwordDoubleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:hint="Повторите ваш пароль"
+        android:inputType="textPassword" />
+    <EditText
+
+        android:id="@+id/NameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:hint="Введите ваше имя"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Регистрация" />
+
+    <TextView
+        android:id="@+id/toggleLogineTextView"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:onClick="toggleLoginMode"
+        android:gravity="center"
+        android:text="Авторизация"
+        android:textSize="20sp" />
+</LinearLayout>
